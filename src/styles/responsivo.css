@@ -1,0 +1,31 @@
+@media screen and (max-width: 580px) {
+    body {
+        background-color: blue;
+    }
+    .container {
+        width: 40rem;
+        max-width: 90vw;
+        padding: 2rem 1rem;
+    }
+    .game {
+        display: flex;
+        justify-content: space-between;
+        width: 35rem;
+        max-width: 80vw;
+        gap: .5rem;
+    }
+    .item {
+        width: 23.7%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .game {
+        display: flex;
+        justify-content: space-between;
+        width: 30rem;
+    }
+    .item {
+        width: 22%;
+    }
+}
